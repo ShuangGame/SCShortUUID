@@ -19,3 +19,6 @@ About Base32 read  [http://en.wikipedia.org/wiki/Base32](http://en.wikipedia.org
 *  Earliest supported deployment target - iOS 6.0
 
 There will be an error while build, if  ```__IPHONE_OS_VERSION_MIN_REQUIRED <__IPHONE_6_0```
+
+##Reference
+[UUIDを少し短くするUUIDShortenerAdd Star](http://d.hatena.ne.jp/KishikawaKatsumi/20131031/1383235295)
