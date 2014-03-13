@@ -19,6 +19,7 @@
 		7E4CC90B18D207CF0003E036 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E4CC8F318D207CF0003E036 /* UIKit.framework */; };
 		7E4CC91318D207CF0003E036 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E4CC91118D207CF0003E036 /* InfoPlist.strings */; };
 		7E4CC91518D207CF0003E036 /* SCShortUUIDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4CC91418D207CF0003E036 /* SCShortUUIDTests.m */; };
+		7E4CC92018D208530003E036 /* SCShortUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4CC91F18D208530003E036 /* SCShortUUID.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		7E4CC91018D207CF0003E036 /* SCShortUUIDTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SCShortUUIDTests-Info.plist"; sourceTree = "<group>"; };
 		7E4CC91218D207CF0003E036 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7E4CC91418D207CF0003E036 /* SCShortUUIDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCShortUUIDTests.m; sourceTree = "<group>"; };
+		7E4CC91E18D208530003E036 /* SCShortUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCShortUUID.h; sourceTree = "<group>"; };
+		7E4CC91F18D208530003E036 /* SCShortUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCShortUUID.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 		7E4CC8E318D207CF0003E036 = {
 			isa = PBXGroup;
 			children = (
+				7E4CC91E18D208530003E036 /* SCShortUUID.h */,
+				7E4CC91F18D208530003E036 /* SCShortUUID.m */,
 				7E4CC8F518D207CF0003E036 /* SCShortUUID */,
 				7E4CC90E18D207CF0003E036 /* SCShortUUIDTests */,
 				7E4CC8EE18D207CF0003E036 /* Frameworks */,
@@ -240,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E4CC90018D207CF0003E036 /* AppDelegate.m in Sources */,
+				7E4CC92018D208530003E036 /* SCShortUUID.m in Sources */,
 				7E4CC8FC18D207CF0003E036 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,6 +368,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SCShortUUID/SCShortUUID-Prefix.pch";
 				INFOPLIST_FILE = "SCShortUUID/SCShortUUID-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -375,6 +382,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SCShortUUID/SCShortUUID-Prefix.pch";
 				INFOPLIST_FILE = "SCShortUUID/SCShortUUID-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -441,6 +449,7 @@
 				7E4CC91A18D207CF0003E036 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E4CC91B18D207CF0003E036 /* Build configuration list for PBXNativeTarget "SCShortUUIDTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +458,7 @@
 				7E4CC91D18D207CF0003E036 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
