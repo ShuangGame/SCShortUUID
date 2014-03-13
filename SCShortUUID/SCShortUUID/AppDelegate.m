@@ -18,7 +18,8 @@
     [self.window makeKeyAndVisible];
     UIDynamicAnimator *ad =[[UIDynamicAnimator alloc] init];
     [ad shouldGroupAccessibilityChildren];
-    NSLog(@"UUID:%@",[SCShortUUID UUIDString]);
+    NSString *uuid32=[SCShortUUID UUIDString];
+    NSLog(@"UUID:%@",uuid32);
     return YES;
 }
 

@@ -51,6 +51,7 @@
 		7E4CC91418D207CF0003E036 /* SCShortUUIDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCShortUUIDTests.m; sourceTree = "<group>"; };
 		7E4CC91E18D208530003E036 /* SCShortUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCShortUUID.h; sourceTree = "<group>"; };
 		7E4CC91F18D208530003E036 /* SCShortUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCShortUUID.m; sourceTree = "<group>"; };
+		7E76D70618D21BAA00E0D535 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +81,7 @@
 		7E4CC8E318D207CF0003E036 = {
 			isa = PBXGroup;
 			children = (
+				7E76D70618D21BAA00E0D535 /* README.md */,
 				7E4CC91E18D208530003E036 /* SCShortUUID.h */,
 				7E4CC91F18D208530003E036 /* SCShortUUID.m */,
 				7E4CC8F518D207CF0003E036 /* SCShortUUID */,
