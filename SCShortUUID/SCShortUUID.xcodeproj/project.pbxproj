@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E4CC8F018D207CF0003E036 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E4CC8EF18D207CF0003E036 /* Foundation.framework */; };
+		7E4CC8F218D207CF0003E036 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E4CC8F118D207CF0003E036 /* CoreGraphics.framework */; };
+		7E4CC8F418D207CF0003E036 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E4CC8F318D207CF0003E036 /* UIKit.framework */; };
+		7E4CC8FA18D207CF0003E036 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E4CC8F818D207CF0003E036 /* InfoPlist.strings */; };
+		7E4CC8FC18D207CF0003E036 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4CC8FB18D207CF0003E036 /* main.m */; };
+		7E4CC90018D207CF0003E036 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4CC8FF18D207CF0003E036 /* AppDelegate.m */; };
+		7E4CC90218D207CF0003E036 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E4CC90118D207CF0003E036 /* Images.xcassets */; };
+		7E4CC90918D207CF0003E036 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E4CC90818D207CF0003E036 /* XCTest.framework */; };
+		7E4CC90A18D207CF0003E036 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E4CC8EF18D207CF0003E036 /* Foundation.framework */; };
+		7E4CC90B18D207CF0003E036 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E4CC8F318D207CF0003E036 /* UIKit.framework */; };
+		7E4CC91318D207CF0003E036 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E4CC91118D207CF0003E036 /* InfoPlist.strings */; };
+		7E4CC91518D207CF0003E036 /* SCShortUUIDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4CC91418D207CF0003E036 /* SCShortUUIDTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E4CC90C18D207CF0003E036 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E4CC8E418D207CF0003E036 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E4CC8EB18D207CF0003E036;
+			remoteInfo = SCShortUUID;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E4CC8EC18D207CF0003E036 /* SCShortUUID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCShortUUID.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E4CC8EF18D207CF0003E036 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7E4CC8F118D207CF0003E036 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7E4CC8F318D207CF0003E036 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7E4CC8F718D207CF0003E036 /* SCShortUUID-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SCShortUUID-Info.plist"; sourceTree = "<group>"; };
+		7E4CC8F918D207CF0003E036 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7E4CC8FB18D207CF0003E036 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E4CC8FD18D207CF0003E036 /* SCShortUUID-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SCShortUUID-Prefix.pch"; sourceTree = "<group>"; };
+		7E4CC8FE18D207CF0003E036 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E4CC8FF18D207CF0003E036 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E4CC90118D207CF0003E036 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7E4CC90718D207CF0003E036 /* SCShortUUIDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCShortUUIDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E4CC90818D207CF0003E036 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7E4CC91018D207CF0003E036 /* SCShortUUIDTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SCShortUUIDTests-Info.plist"; sourceTree = "<group>"; };
+		7E4CC91218D207CF0003E036 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7E4CC91418D207CF0003E036 /* SCShortUUIDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCShortUUIDTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E4CC8E918D207CF0003E036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4CC8F218D207CF0003E036 /* CoreGraphics.framework in Frameworks */,
+				7E4CC8F418D207CF0003E036 /* UIKit.framework in Frameworks */,
+				7E4CC8F018D207CF0003E036 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4CC90418D207CF0003E036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4CC90918D207CF0003E036 /* XCTest.framework in Frameworks */,
+				7E4CC90B18D207CF0003E036 /* UIKit.framework in Frameworks */,
+				7E4CC90A18D207CF0003E036 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E4CC8E318D207CF0003E036 = {
+			isa = PBXGroup;
+			children = (
+				7E4CC8F518D207CF0003E036 /* SCShortUUID */,
+				7E4CC90E18D207CF0003E036 /* SCShortUUIDTests */,
+				7E4CC8EE18D207CF0003E036 /* Frameworks */,
+				7E4CC8ED18D207CF0003E036 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E4CC8ED18D207CF0003E036 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E4CC8EC18D207CF0003E036 /* SCShortUUID.app */,
+				7E4CC90718D207CF0003E036 /* SCShortUUIDTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E4CC8EE18D207CF0003E036 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E4CC8EF18D207CF0003E036 /* Foundation.framework */,
+				7E4CC8F118D207CF0003E036 /* CoreGraphics.framework */,
+				7E4CC8F318D207CF0003E036 /* UIKit.framework */,
+				7E4CC90818D207CF0003E036 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E4CC8F518D207CF0003E036 /* SCShortUUID */ = {
+			isa = PBXGroup;
+			children = (
+				7E4CC8FE18D207CF0003E036 /* AppDelegate.h */,
+				7E4CC8FF18D207CF0003E036 /* AppDelegate.m */,
+				7E4CC90118D207CF0003E036 /* Images.xcassets */,
+				7E4CC8F618D207CF0003E036 /* Supporting Files */,
+			);
+			path = SCShortUUID;
+			sourceTree = "<group>";
+		};
+		7E4CC8F618D207CF0003E036 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E4CC8F718D207CF0003E036 /* SCShortUUID-Info.plist */,
+				7E4CC8F818D207CF0003E036 /* InfoPlist.strings */,
+				7E4CC8FB18D207CF0003E036 /* main.m */,
+				7E4CC8FD18D207CF0003E036 /* SCShortUUID-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E4CC90E18D207CF0003E036 /* SCShortUUIDTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E4CC91418D207CF0003E036 /* SCShortUUIDTests.m */,
+				7E4CC90F18D207CF0003E036 /* Supporting Files */,
+			);
+			path = SCShortUUIDTests;
+			sourceTree = "<group>";
+		};
+		7E4CC90F18D207CF0003E036 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E4CC91018D207CF0003E036 /* SCShortUUIDTests-Info.plist */,
+				7E4CC91118D207CF0003E036 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E4CC8EB18D207CF0003E036 /* SCShortUUID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E4CC91818D207CF0003E036 /* Build configuration list for PBXNativeTarget "SCShortUUID" */;
+			buildPhases = (
+				7E4CC8E818D207CF0003E036 /* Sources */,
+				7E4CC8E918D207CF0003E036 /* Frameworks */,
+				7E4CC8EA18D207CF0003E036 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCShortUUID;
+			productName = SCShortUUID;
+			productReference = 7E4CC8EC18D207CF0003E036 /* SCShortUUID.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E4CC90618D207CF0003E036 /* SCShortUUIDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E4CC91B18D207CF0003E036 /* Build configuration list for PBXNativeTarget "SCShortUUIDTests" */;
+			buildPhases = (
+				7E4CC90318D207CF0003E036 /* Sources */,
+				7E4CC90418D207CF0003E036 /* Frameworks */,
+				7E4CC90518D207CF0003E036 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E4CC90D18D207CF0003E036 /* PBXTargetDependency */,
+			);
+			name = SCShortUUIDTests;
+			productName = SCShortUUIDTests;
+			productReference = 7E4CC90718D207CF0003E036 /* SCShortUUIDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E4CC8E418D207CF0003E036 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Shuang;
+				TargetAttributes = {
+					7E4CC90618D207CF0003E036 = {
+						TestTargetID = 7E4CC8EB18D207CF0003E036;
+					};
+				};
+			};
+			buildConfigurationList = 7E4CC8E718D207CF0003E036 /* Build configuration list for PBXProject "SCShortUUID" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7E4CC8E318D207CF0003E036;
+			productRefGroup = 7E4CC8ED18D207CF0003E036 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E4CC8EB18D207CF0003E036 /* SCShortUUID */,
+				7E4CC90618D207CF0003E036 /* SCShortUUIDTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E4CC8EA18D207CF0003E036 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4CC8FA18D207CF0003E036 /* InfoPlist.strings in Resources */,
+				7E4CC90218D207CF0003E036 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4CC90518D207CF0003E036 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4CC91318D207CF0003E036 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E4CC8E818D207CF0003E036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4CC90018D207CF0003E036 /* AppDelegate.m in Sources */,
+				7E4CC8FC18D207CF0003E036 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4CC90318D207CF0003E036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4CC91518D207CF0003E036 /* SCShortUUIDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E4CC90D18D207CF0003E036 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E4CC8EB18D207CF0003E036 /* SCShortUUID */;
+			targetProxy = 7E4CC90C18D207CF0003E036 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E4CC8F818D207CF0003E036 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E4CC8F918D207CF0003E036 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7E4CC91118D207CF0003E036 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E4CC91218D207CF0003E036 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E4CC91618D207CF0003E036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E4CC91718D207CF0003E036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E4CC91918D207CF0003E036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SCShortUUID/SCShortUUID-Prefix.pch";
+				INFOPLIST_FILE = "SCShortUUID/SCShortUUID-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7E4CC91A18D207CF0003E036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SCShortUUID/SCShortUUID-Prefix.pch";
+				INFOPLIST_FILE = "SCShortUUID/SCShortUUID-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7E4CC91C18D207CF0003E036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SCShortUUID.app/SCShortUUID";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SCShortUUID/SCShortUUID-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SCShortUUIDTests/SCShortUUIDTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7E4CC91D18D207CF0003E036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SCShortUUID.app/SCShortUUID";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SCShortUUID/SCShortUUID-Prefix.pch";
+				INFOPLIST_FILE = "SCShortUUIDTests/SCShortUUIDTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E4CC8E718D207CF0003E036 /* Build configuration list for PBXProject "SCShortUUID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E4CC91618D207CF0003E036 /* Debug */,
+				7E4CC91718D207CF0003E036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E4CC91818D207CF0003E036 /* Build configuration list for PBXNativeTarget "SCShortUUID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E4CC91918D207CF0003E036 /* Debug */,
+				7E4CC91A18D207CF0003E036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E4CC91B18D207CF0003E036 /* Build configuration list for PBXNativeTarget "SCShortUUIDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E4CC91C18D207CF0003E036 /* Debug */,
+				7E4CC91D18D207CF0003E036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E4CC8E418D207CF0003E036 /* Project object */;
+}
