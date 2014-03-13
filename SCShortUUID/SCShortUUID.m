@@ -9,10 +9,6 @@
 #import "SCShortUUID.h"
 
 
-#if __IPHONE_OS_VERSION_MIN_REQUIRED <__IPHONE_6_0
-#error Deployment Target 6.0 required for [NSUUID UUID]
-#endif
-
 @implementation SCShortUUID
 +(NSString*)UUIDString{
     NSUUID *sysUUID=[NSUUID UUID];
