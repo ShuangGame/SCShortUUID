@@ -11,8 +11,10 @@ About Base32 read  [http://en.wikipedia.org/wiki/Base32](http://en.wikipedia.org
 
 ##How to use:  
 
-```objc
-    NSString *uuid32=[SCShortUUID UUIDString];
+Drag `SCShortUUID.h` and `SCShortUUID.m` files into your project.
+
+```
+NSString *uuid32=[SCShortUUID UUIDString];
 ```
 
 ##Supported OS & SDK Versions
